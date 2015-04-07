@@ -1,0 +1,3 @@
+*.DS_*
+Config/db.yml
+Config/github.yml
