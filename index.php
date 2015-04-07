@@ -5,7 +5,7 @@ header('Access-Control-Allow-Credentials: true');
 header('Access-Control-Allow-Headers: X-Requested-With, Authorization, Content-Type');
 
 require_once 'Slim/Slim.php';
-require_once 'Vendors/github-php-client/client/GitHubClient.php';
+require_once 'Libs/git/client/GitHubClient.php';
 
 \Slim\Slim::registerAutoloader();
 
